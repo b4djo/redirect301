@@ -4,7 +4,7 @@ namespace b4djo\redirect301\controllers;
 
 use yii\web\Controller;
 use Yii;
-use backend\modules\redirect\models\RedirectPage;
+use b4djo\redirect301\models\models\RedirectPage;
 use yii\data\ActiveDataProvider;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
