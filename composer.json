@@ -11,7 +11,8 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+        "b4djo/yii2-redirect301": "dev-master"
     },
     "autoload": {
         "psr-4": {
