@@ -28,4 +28,8 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \b4djo\redirect301\AutoloadExample::widget(); ?>```
+'modules' => [
+    'redirect301' => [
+        'class' => 'b4djo\redirect301\Module',
+    ],
+]```
