@@ -1,0 +1,21 @@
+{
+    "name": "b4djo/yii2-redirect301",
+    "description": "Redirect 301",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","redirect301","redirect","301"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fatkhullin Robert",
+            "email": "robertob4djo@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "b4djo\\redirect301\\": ""
+        }
+    }
+}
