@@ -16,7 +16,7 @@ class RedirectPage extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'redirect_page';
+        return 'redirect301_page';
     }
 
     /**
