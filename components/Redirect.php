@@ -1,6 +1,6 @@
 <?php
 /**
- * Класс для 301 редиректа
+ * Redirect 301 class
  */
 namespace b4djo\redirect301\components;
 
@@ -13,7 +13,7 @@ class Redirect extends Component implements BootstrapInterface
 {
     
     /**
-     * 301 редирект, в случае есть в БД есть искомый url
+     * 301 redirect, in the case there are in the database there is a url
      * @param \yii\base\Application $application
      */
     public function bootstrap($application)

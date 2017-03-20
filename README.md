@@ -21,15 +21,16 @@ or add
 
 to the require section of your `composer.json` file.
 
-
-Usage
------
-
-Once the extension is installed, simply use it in your code by  :
-
+In your config file:
 ```php
+'bootstrap' => ['Redirect'],
+
 'modules' => [
     'redirect301' => [
         'class' => 'b4djo\redirect301\Module',
     ],
-]```
+]
+```
+
+Usage
+-----
