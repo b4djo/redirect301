@@ -23,14 +23,26 @@ to the require section of your `composer.json` file.
 
 In your config file:
 ```php
-'bootstrap' => ['Redirect'],
+'bootstrap' => ['redirect301'],
 
 'modules' => [
+    ...
     'redirect301' => [
         'class' => 'b4djo\redirect301\Module',
     ],
 ]
+
+'components' => [
+    ...
+    'redirect301' => [
+        'class' => 'b4djo\redirect301\components\Redirect',
+    ],
+]
 ```
+
+Migrations:
+
+yii migrate --migrationPath=@vendor/b4djo/yii2-redirect301/migrations
 
 Usage
 -----

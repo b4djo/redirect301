@@ -4,7 +4,7 @@
  */
 namespace b4djo\redirect301\components;
 
-use backend\modules\redirect\models\RedirectPage;
+use b4djo\redirect301\models\RedirectPage;
 use yii\base\BootstrapInterface;
 use yii\base\Component;
 use yii\web\Application;
